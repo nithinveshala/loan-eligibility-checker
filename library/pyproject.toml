@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "loan-eligibility-engine"
+version = "1.0.0"
+description = "A comprehensive OOP library for assessing loan eligibility using credit scoring, risk assessment, and financial analysis."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Aditya", email = "aditya@example.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial",
+    "Intended Audience :: Developers",
+]
+
+[project.urls]
+Homepage = "https://github.com/aditya/loan-eligibility-engine"
+
+[tool.setuptools.packages.find]
+include = ["loan_eligibility_engine*"]
